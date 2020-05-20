@@ -208,7 +208,7 @@ def raw_data(df):
     """Displays 5 rows of raw data upon request from the user"""
     count = 0
     while True:
-        raw = input("Would you like to see raw data? Enter yes or no: ")
+        raw = input("Would you like to see raw data? Enter yes or no: ").lower()
         count += 1
         if raw == 'yes':
             if count == 1:
@@ -219,7 +219,7 @@ def raw_data(df):
             break
 
     while False:
-        print('There is something wrong with your entry. Enter yes or no:')
+        print('There is something wrong with your entry. Enter yes or no:').lower()
 
 
 def main():
