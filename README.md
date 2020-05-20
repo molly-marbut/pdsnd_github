@@ -1,14 +1,16 @@
-### 20 May 2020
-Include the date you created this project and README file.
+### Project Date
+20 May 2020
 
-### Udacity BikeShare Project
-Replace the Project Title
+### Project Title
+Udacity Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+This project summarizes user data from a bikeshare company in 3 cities: Washington, New York City, and Chicago
 
 ### Files used
-Include the files used
+washington.csv <br/>
+new_york_city.csv <br/>
+chicago.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Stackoverflow.com, pandas.pydata.org, and thispointer.com were instrumental in completing this project
