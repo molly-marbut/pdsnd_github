@@ -1,5 +1,6 @@
 ### Project Date
-20 May 2020
+The python project was started on 7 May 2020 <br/>
+This github was started on 20 May 2020
 
 ### Project Title
 Udacity Bikeshare Project
