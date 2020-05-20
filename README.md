@@ -8,7 +8,7 @@ Udacity Bikeshare Project
 ### Description
 This project summarizes user data from a bikeshare company in 3 cities: Washington, New York City, and Chicago
 
-### Files used
+### Files and Packages used
 washington.csv <br/>
 new_york_city.csv <br/>
 chicago.csv <br/>
