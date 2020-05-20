@@ -186,8 +186,8 @@ def user_stats(df):
     try:
         genders = df['Gender'].value_counts()
         print("The amount of Males and Females is:\n{}\n".format(genders))
-    except Exception:
-        print("The counts for each gender are not available.\n")
+    except Exception as ex:
+        print("The counts for each gender are not available. Exception: {}\n".format(ex))
 
     # Display earliest, most recent, and most common year of birth
     try:
@@ -198,8 +198,8 @@ def user_stats(df):
         print("The most recent birth year of users is {}.".format(int(recent)))
         most_common = birth_year.mode()[0]
         print("The most common birth year is {}.".format(int(most_common)))
-    except Exception:
-        print("The data regarding birth year is not available.")
+    except Exception as ex:
+        print("The data regarding birth year is not available. Exception: {}".format(ex))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -208,7 +208,7 @@ def raw_data(df):
     """Displays 5 rows of raw data upon request from the user"""
     count = 0
     while True:
-        raw = input("Would you like to see raw data? Enter yes or no: ")
+        raw = input("Would you like to see raw data? Enter yes or no: ").lower()
         count += 1
         if raw == 'yes':
             if count == 1:
@@ -219,7 +219,7 @@ def raw_data(df):
             break
 
     while False:
-        print('There is something wrong with your entry. Enter yes or no:')
+        print('There is something wrong with your entry. Enter yes or no:').lower()
 
 
 def main():
