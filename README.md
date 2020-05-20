@@ -10,7 +10,9 @@ This project summarizes user data from a bikeshare company in 3 cities: Washingt
 ### Files used
 washington.csv <br/>
 new_york_city.csv <br/>
-chicago.csv
+chicago.csv <br/>
+numpy package <br/>
+pandas package <br/>
 
 ### Credits
 Stackoverflow.com, pandas.pydata.org, and thispointer.com were instrumental in completing this project
